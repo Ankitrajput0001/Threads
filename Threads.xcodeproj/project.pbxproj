@@ -14,6 +14,8 @@
 		17F356B52C61159600952020 /* ThreadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F356B42C61159600952020 /* ThreadsTests.swift */; };
 		17F356BF2C61159600952020 /* ThreadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F356BE2C61159600952020 /* ThreadsUITests.swift */; };
 		17F356C12C61159600952020 /* ThreadsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F356C02C61159600952020 /* ThreadsUITestsLaunchTests.swift */; };
+		17F356D62C6116DE00952020 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F356D52C6116DE00952020 /* LoginView.swift */; };
+		17F356D92C6119C700952020 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F356D82C6119C700952020 /* RegistrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		17F356BA2C61159600952020 /* ThreadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F356BE2C61159600952020 /* ThreadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsUITests.swift; sourceTree = "<group>"; };
 		17F356C02C61159600952020 /* ThreadsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17F356D52C6116DE00952020 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		17F356D82C6119C700952020 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,12 @@
 		17F356A22C61159400952020 /* Threads */ = {
 			isa = PBXGroup;
 			children = (
-				17F356A32C61159400952020 /* ThreadsApp.swift */,
-				17F356A52C61159400952020 /* ContentView.swift */,
+				17F356D22C6115FD00952020 /* App */,
+				17F356D12C6115FC00952020 /* Core */,
+				17F356D02C6115FB00952020 /* Extensions */,
+				17F356CF2C6115FA00952020 /* Models */,
+				17F356CE2C6115F900952020 /* Services */,
+				17F356CD2C6115F700952020 /* Utils */,
 				17F356A72C61159600952020 /* Assets.xcassets */,
 				17F356A92C61159600952020 /* Preview Content */,
 			);
@@ -125,6 +133,76 @@
 				17F356C02C61159600952020 /* ThreadsUITestsLaunchTests.swift */,
 			);
 			path = ThreadsUITests;
+			sourceTree = "<group>";
+		};
+		17F356CD2C6115F700952020 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		17F356CE2C6115F900952020 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		17F356CF2C6115FA00952020 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17F356D02C6115FB00952020 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		17F356D12C6115FC00952020 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				17F356D42C61168B00952020 /* Authentication */,
+				17F356D32C61167B00952020 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		17F356D22C6115FD00952020 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				17F356A32C61159400952020 /* ThreadsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		17F356D32C61167B00952020 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				17F356A52C61159400952020 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		17F356D42C61168B00952020 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				17F356D72C6116F300952020 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		17F356D72C6116F300952020 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17F356D52C6116DE00952020 /* LoginView.swift */,
+				17F356D82C6119C700952020 /* RegistrationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +335,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F356D62C6116DE00952020 /* LoginView.swift in Sources */,
 				17F356A62C61159400952020 /* ContentView.swift in Sources */,
 				17F356A42C61159400952020 /* ThreadsApp.swift in Sources */,
+				17F356D92C6119C700952020 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
