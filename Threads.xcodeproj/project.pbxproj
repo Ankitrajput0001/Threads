@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		176BC11D2C709C4300B65B34 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176BC11C2C709C4300B65B34 /* EditProfileView.swift */; };
 		176F0CB92C6DFFC400E22BFC /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F0CB82C6DFFC400E22BFC /* ThreadsTextFieldModifier.swift */; };
 		176F0CBC2C6E020F00E22BFC /* ThreadsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F0CBB2C6E020F00E22BFC /* ThreadsTabView.swift */; };
 		176F0CBF2C6E057400E22BFC /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F0CBE2C6E057400E22BFC /* FeedView.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		176BC11C2C709C4300B65B34 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		176F0CB82C6DFFC400E22BFC /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
 		176F0CBB2C6E020F00E22BFC /* ThreadsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTabView.swift; sourceTree = "<group>"; };
 		176F0CBE2C6E057400E22BFC /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		176BC11A2C709C3000B65B34 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				176BC11B2C709C3600B65B34 /* View */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		176BC11B2C709C3600B65B34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				176BC11C2C709C4300B65B34 /* EditProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		176F0CB72C6DFFA100E22BFC /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +166,7 @@
 		176F0CC92C6E062D00E22BFC /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				176BC11A2C709C3000B65B34 /* EditProfile */,
 				176F0CD82C6E6BD300E22BFC /* Model */,
 				176F0CCF2C6E069F00E22BFC /* View */,
 			);
@@ -482,6 +501,7 @@
 			files = (
 				176F0CBF2C6E057400E22BFC /* FeedView.swift in Sources */,
 				17F356D62C6116DE00952020 /* LoginView.swift in Sources */,
+				176BC11D2C709C4300B65B34 /* EditProfileView.swift in Sources */,
 				17F356A62C61159400952020 /* ContentView.swift in Sources */,
 				176F0CD22C6E07FB00E22BFC /* ThreadCell.swift in Sources */,
 				176F0CC82C6E061300E22BFC /* ActivityView.swift in Sources */,
